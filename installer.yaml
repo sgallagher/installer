@@ -1,0 +1,538 @@
+data:
+  api:
+    rpms:
+    - kbd-misc
+    - libuser
+    - libblockdev-plugins-all
+    - iputils
+    - isomd5sum
+    - lz4
+    - kbd
+    - python3-pytz
+    - kexec-tools
+    - xmlrpc-c-client
+    - python3-cffi
+    - python3-pwquality
+    - python3-cryptography
+    - kbd-legacy
+    - anaconda-tui
+    - satyr
+    - python3-pyOpenSSL
+    - snappy
+    - python3-hawkey
+    - libnl3
+    - langtable-data
+    - libblockdev-dm
+    - iptables
+    - ipset
+    - libselinux-python3
+    - libreport-python3
+    - python3-requests-ftp
+    - libtar
+    - libdaemon
+    - libss
+    - iproute
+    - device-mapper-persistent-data
+    - libbytesize
+    - xmlrpc-c
+    - python3-gobject-base
+    - polkit-libs
+    - libmodman
+    - libconfig
+    - teamd
+    - libnl3-cli
+    - dnf-conf
+    - python3-librepo
+    - libselinux-utils
+    - python3-pycparser
+    - libblockdev-btrfs
+    - libblockdev-mpath
+    - json-c
+    - dosfstools
+    - libblockdev-mdraid
+    - libpciaccess
+    - python3-requests-file
+    - python3-pyasn1
+    - langtable
+    - python3-ntplib
+    - mdadm
+    - python3-urllib3
+    - libreport-cli
+    - glib-networking
+    - python3-pid
+    - hwdata
+    - libproxy
+    - btrfs-progs
+    - lvm2-libs
+    - bind99-libs
+    - python3-ordered-set
+    - kpartx
+    - python3-bytesize
+    - python3-requests
+    - dmraid-events
+    - dhcp-libs
+    - libblockdev-swap
+    - python3-iniparse
+    - anaconda-core
+    - device-mapper-multipath
+    - python3-chardet
+    - libteam
+    - libreport-plugin-reportuploader
+    - python3-slip
+    - libedit
+    - libreport-web
+    - openssl
+    - dhcp-common
+    - jansson
+    - device-mapper-multipath-libs
+    - e2fsprogs-libs
+    - lsof
+    - python3-slip-dbus
+    - hfsplus-tools
+    - lldpad
+    - lvm2
+    - python3-blivet
+    - python3-iscsi-initiator-utils
+    - python3-ply
+    - parted
+    - deltarpm
+    - libmnl
+    - gdisk
+    - libblockdev-loop
+    - dmraid
+    - dnf
+    - python3-libcomps
+    - libnetfilter_conntrack
+    - python3-dnf
+    - bcache-tools
+    - rpm-plugin-systemd-inhibit
+    - python3-decorator
+    - firewalld
+    - python3-wrapt
+    - python3-pysocks
+    - NetworkManager-libnm
+    - python3-firewall
+    - NetworkManager
+    - python3-idna
+    - libusbx
+    - realmd
+    - python3-pygpgme
+    - compat-openssl10
+    - libreport-anaconda
+    - libblockdev-crypto
+    - python3-blockdev
+    - libreport-filesystem
+    - python3-kickstart
+    - authconfig
+    - libusb
+    - drpm
+    - libblockdev-utils
+    - createrepo_c-libs
+    - libnfnetlink
+    - ipset-libs
+    - device-mapper-event-libs
+    - libblockdev-part
+    - policycoreutils
+    - python3-coverage
+    - initscripts
+    - bind99-license
+    - device-mapper-event
+    - gnupg
+    - libreport-plugin-bugzilla
+    - volume_key-libs
+    - python3-pyparted
+    - ethtool
+    - libndp
+    - iscsi-initiator-utils-iscsiuio
+    - libcomps
+    - firewalld-filesystem
+    - python3-pyudev
+    - dhcp-client
+    - e2fsprogs
+    - libblockdev
+    - gsettings-desktop-schemas
+    - libgudev
+    - dbus-glib
+    - libblockdev-fs
+    - python3-dbus
+    - dracut-network
+    - hostname
+    - libblockdev-lvm
+    - iscsi-initiator-utils
+    - libsoup
+    - glibc-langpack-en
+    - libaio
+    - ebtables
+    - cracklib-dicts
+    - passwd
+    - python3-meh
+    - rsync
+    - sgpio
+    - augeas-libs
+    - python3-sssdconfig
+    - usermode
+    - fcoe-utils
+    - libblockdev-kbd
+    - libreport
+    - ipcalc
+    - chrony
+    - createrepo_c
+    - langtable-python3
+    - python3-rpm
+    - NetworkManager-team
+  components:
+    rpms:
+      NetworkManager:
+        rationale: Automatically generated
+        ref: e6eb5ade9b935572977684758c241dd4fe396c45
+      anaconda:
+        rationale: Automatically generated
+        ref: 4345efecdc5b70fbf7ceb884e0364b6356181ded
+      augeas:
+        rationale: Automatically generated
+        ref: e38ca9cbdad25f19444b001c40bc999d7280354d
+      authconfig:
+        rationale: Automatically generated
+        ref: 88d44adcc38a660274ee84f2f1c697a88b5ea0d1
+      bcache-tools:
+        rationale: Automatically generated
+        ref: 8fe2f35e38695da0f156877d57e091586e0213f8
+      bind99:
+        rationale: Automatically generated
+        ref: 6a9078df6a30435462d1bcfe1b2b626c1306c836
+      btrfs-progs:
+        rationale: Automatically generated
+        ref: 6c50d26d051ed5d165396372d452a579dab07ec0
+      chrony:
+        rationale: Automatically generated
+        ref: 2032e72b91f83ce55c367c322a71f2c0862b947c
+      compat-openssl10:
+        rationale: Automatically generated
+        ref: d59ab7262d0937c4064e5e42e066e8cfa330c6ef
+      createrepo_c:
+        rationale: Automatically generated
+        ref: 6a445f4aa70d5b34820425f6502335efff3c3ff0
+      dbus-glib:
+        rationale: Automatically generated
+        ref: 109eff38b1821950e70c3872e5d29ef70ad499d1
+      dbus-python:
+        rationale: Automatically generated
+        ref: f72afe1ccb703b8913c0519a97dd9617fde7bfa8
+      deltarpm:
+        rationale: Automatically generated
+        ref: 6c36433c34e1c8afac4cc56460c4ef7c561e26ab
+      device-mapper-multipath:
+        rationale: Automatically generated
+        ref: 8e9e3b7467947f8aada42f17e23e98b8be76285f
+      device-mapper-persistent-data:
+        rationale: Automatically generated
+        ref: 0a96e398abb747cbb8862e0a4a3be42617d1d1ca
+      dhcp:
+        rationale: Automatically generated
+        ref: 00c7b672b0b5e9a20084edab9e478fb7ac32d6e9
+      dmraid:
+        rationale: Automatically generated
+        ref: 40037cc251c95b01658e0fe54def79d5a688cc9b
+      dnf:
+        rationale: Automatically generated
+        ref: 54d1fbf14d0ea0204affa30b20f3fc6235899d2d
+      dosfstools:
+        rationale: Automatically generated
+        ref: 583cba6c622aa10aaff5dd7d490d9425aa6e9829
+      drpm:
+        rationale: Automatically generated
+        ref: d88f028368d8113cf9abc5abbb5395294543dfe7
+      ebtables:
+        rationale: Automatically generated
+        ref: b0905b550e13833635db0442a04a7ade62ec37cf
+      ethtool:
+        rationale: Automatically generated
+        ref: f33686fcb0eec063e0558d4b52dcb377a2008ab7
+      fcoe-utils:
+        rationale: Automatically generated
+        ref: 072cb4d2459d1f2aab821048432cdaaf7820a379
+      firewalld:
+        rationale: Automatically generated
+        ref: 698a906f329aba4044084ebf45551a8a8c154aff
+      gdisk:
+        rationale: Automatically generated
+        ref: 8eac9df1ba25b617275abcfd367a6a645a761bad
+      glib-networking:
+        rationale: Automatically generated
+        ref: ae6931b402c57c4cdfd949a3848221b116e85296
+      gnupg:
+        rationale: Automatically generated
+        ref: 7630ade3ba5fc90edd2d9d7746b3975126719bac
+      gsettings-desktop-schemas:
+        rationale: Automatically generated
+        ref: 88450c06ae2f330bcb742652ee3734b5884184d0
+      hfsplus-tools:
+        rationale: Automatically generated
+        ref: b7d09eb9769bc56a533e0f758a673e616b3f348b
+      hostname:
+        rationale: Automatically generated
+        ref: 0295eebd4fdb0f743622697699cb24452e134921
+      hwdata:
+        rationale: Automatically generated
+        ref: 3229b7e74693107035460356659d770518dace9e
+      initscripts:
+        rationale: Automatically generated
+        ref: 049c81f2d3e2aac907375522d446d6a8df551c2a
+      ipcalc:
+        rationale: Automatically generated
+        ref: 94b17329ad410efbaf01eef190b166e5b893976f
+      iproute:
+        rationale: Automatically generated
+        ref: 5362d1ec6009ae1343fdd257bd15a4f752fcb008
+      ipset:
+        rationale: Automatically generated
+        ref: 5a4869ae44738727eb2618816346f9830d47ca52
+      iputils:
+        rationale: Automatically generated
+        ref: 3be51cc88526fbf29d67dd1de80366b416140975
+      iscsi-initiator-utils:
+        rationale: Automatically generated
+        ref: 3e84e8c88d0f03d39e084a535411f6bca6613264
+      isomd5sum:
+        rationale: Automatically generated
+        ref: d4a2bfeeba51a3aa8d0f4bb96c2a91446ad7c65d
+      jansson:
+        rationale: Automatically generated
+        ref: 87cf3eaa9513e3f659dd2941faf2667538dc877d
+      json-c:
+        rationale: Automatically generated
+        ref: fdf4b42349251f8cda8e1f6125b70582d6ff1ae3
+      kbd:
+        rationale: Automatically generated
+        ref: 662a2c6744cba8c78e0c1f6cb91df6abcf56222e
+      kexec-tools:
+        rationale: Automatically generated
+        ref: 00bd88cd5841359d12acaceee30efa9e7048ae2a
+      langtable:
+        rationale: Automatically generated
+        ref: da6f416d901a82cb17534964271937bf2435fe18
+      libaio:
+        rationale: Automatically generated
+        ref: db11cf2785cee8d274c6640edf9a7078c2509012
+      libblockdev:
+        rationale: Automatically generated
+        ref: f126439364c9932cb7687d284fa5d4d06d1f52d0
+      libbytesize:
+        rationale: Automatically generated
+        ref: 845b461cfa69dc666e3c378f90845ae7b5668e3b
+      libcomps:
+        rationale: Automatically generated
+        ref: b6ea96bdc5f8d6cacb52d5e4af71330f5b163d2d
+      libconfig:
+        rationale: Automatically generated
+        ref: d6d9b7d012624c9fa4905bb5f9b24004bd445414
+      libdaemon:
+        rationale: Automatically generated
+        ref: cded0af21e7f3e8521bc610ae94b1227be52ca1b
+      libedit:
+        rationale: Automatically generated
+        ref: 3858b5775f5a3eef75fdff5239a20782ad259f94
+      libgudev:
+        rationale: Automatically generated
+        ref: 967fcdee403ce64e333170aed62ec88e8a2796ff
+      libmnl:
+        rationale: Automatically generated
+        ref: 0fecaca66472a4f11fbac306aaded65a354dcfab
+      libmodman:
+        rationale: Automatically generated
+        ref: ba5951e1830ef27cdf78d4c4513967f29d9b4149
+      libndp:
+        rationale: Automatically generated
+        ref: 743399d6336993a1d6a953ac8c4d1f42bfbf2743
+      libnetfilter_conntrack:
+        rationale: Automatically generated
+        ref: 0e59521eaee1763e46d0a48e0ad6e5d02fc67e59
+      libnfnetlink:
+        rationale: Automatically generated
+        ref: 3e3ab7c13aac49047432b6f4ceb42ef1ed48c483
+      libnl3:
+        rationale: Automatically generated
+        ref: c59222a3d1ff195e17ca81a4a52f1c8782af12f2
+      libpciaccess:
+        rationale: Automatically generated
+        ref: 14af11625e1c86b564e7eef18cc8318714c11df1
+      libproxy:
+        rationale: Automatically generated
+        ref: da793c1f5aced58e40bf86d15903f5d28d1eabb1
+      libreport:
+        rationale: Automatically generated
+        ref: d539e44114955d726ed028bd08535618a7ac3d9f
+      libsoup:
+        rationale: Automatically generated
+        ref: 6d757ca851c6bf0e8ec257ca949ffb6bef14c325
+      libtar:
+        rationale: Automatically generated
+        ref: 8ae2336f58da6ce1bad083d08a852e212aeab55c
+      libteam:
+        rationale: Automatically generated
+        ref: a9ce5b886ad730f545cebdc0076e742f97829c0f
+      libusb:
+        rationale: Automatically generated
+        ref: 0e2a1f9246118180d61aad731923ebd85154bc6e
+      libusbx:
+        rationale: Automatically generated
+        ref: 1d447b1d5fea72a82da152b20a54bdad7cfb8a0a
+      libuser:
+        rationale: Automatically generated
+        ref: 82af1df176b1e0444cde0733354a51c8562a1ad6
+      lldpad:
+        rationale: Automatically generated
+        ref: b09c517b525800047d520c56a8ee9dc27cfd9715
+      lsof:
+        rationale: Automatically generated
+        ref: 1cff8ff2e4bca66433aa3839bff41ee8330d55e2
+      mdadm:
+        rationale: Automatically generated
+        ref: 104980a2432ef97974e2515ef23ad1a75026bd55
+      parted:
+        rationale: Automatically generated
+        ref: fd44e261404ab70ebfeb25ca246202bd9b090d40
+      passwd:
+        rationale: Automatically generated
+        ref: 80e1e5a6a422c0cbd6d6b1126cc2d9fa07257284
+      policycoreutils:
+        rationale: Automatically generated
+        ref: c12014f9e3e1887accfb7b40c4866e336ae6f7be
+      polkit:
+        rationale: Automatically generated
+        ref: fcbd678dee20a37987a5cfe22e90b175d1289f21
+      pyOpenSSL:
+        rationale: Automatically generated
+        ref: 0021ff00d8cba1a634d588813b4b0b360c5b2a02
+      pygobject3:
+        rationale: Automatically generated
+        ref: 8250eeb4c7f12a7a557a89e94ad7d3b84174a7f7
+      pykickstart:
+        rationale: Automatically generated
+        ref: 5b757b884194056f4ed016df6a0937ae2a35585a
+      pyparted:
+        rationale: Automatically generated
+        ref: 6741677a7ac3774043ee64f062801bd64609cc95
+      python-blivet:
+        rationale: Automatically generated
+        ref: fbe20bb697a4365a2ce8c85ce588f48857daa6b5
+      python-cffi:
+        rationale: Automatically generated
+        ref: b4f3d50a133f2463b5aaa8458898d28cf2f29db2
+      python-chardet:
+        rationale: Automatically generated
+        ref: 9e6423d7e6210dcc24bed2b377155b2c027996a1
+      python-coverage:
+        rationale: Automatically generated
+        ref: f28458ca3feb11cf1263013c8ca25cbfe6d54ea9
+      python-cryptography:
+        rationale: Automatically generated
+        ref: e0298e25e9da5501076d61449640f61c10fdef5a
+      python-decorator:
+        rationale: Automatically generated
+        ref: e9e7a725a1e2cca641fb015646832bfd76f4d423
+      python-idna:
+        rationale: Automatically generated
+        ref: d912c9f7c8c5176114423e5fd9da79647c29d06f
+      python-iniparse:
+        rationale: Automatically generated
+        ref: 711272419db83ad02f66c3bb4a38e952d08777c2
+      python-meh:
+        rationale: Automatically generated
+        ref: 437db681c5af5de9f68cbdc1e35557c37d391d79
+      python-ntplib:
+        rationale: Automatically generated
+        ref: 79d739e3ca26613f15257f132654e0b00c700288
+      python-ordered-set:
+        rationale: Automatically generated
+        ref: 5cfcac877ae90c5801740da0ee20ab22066960a7
+      python-pid:
+        rationale: Automatically generated
+        ref: 13adda6be6845d5081979a767faab1f042291f72
+      python-ply:
+        rationale: Automatically generated
+        ref: d1bc9a00f3adaada60530d4e77c9ec9d0ff09761
+      python-pyasn1:
+        rationale: Automatically generated
+        ref: 1394fda2222961168c470fe8d6925b3c23156376
+      python-pycparser:
+        rationale: Automatically generated
+        ref: e2ddbc1e31710ea37027354c53ff26fd73e5f60e
+      python-pygpgme:
+        rationale: Automatically generated
+        ref: 9c6c3a363c28831e23311df3d21279d608c4747c
+      python-pysocks:
+        rationale: Automatically generated
+        ref: 872319be9916093adbfa233f12adc10cfeb58c9e
+      python-pyudev:
+        rationale: Automatically generated
+        ref: 0b559a8cea17c5298e68d138789ee9e107164e07
+      python-requests:
+        rationale: Automatically generated
+        ref: 92f3747faf42799228cc941d2b9c18a97c95b9d8
+      python-requests-file:
+        rationale: Automatically generated
+        ref: cd3543eceb80870578cb38eb497c6e9de243cf05
+      python-requests-ftp:
+        rationale: Automatically generated
+        ref: 6536642315f0e64daf6c8d166da60b205493c7bd
+      python-slip:
+        rationale: Automatically generated
+        ref: 7dd00c2d1435109a7e51509797e590b38697c0ca
+      python-urllib3:
+        rationale: Automatically generated
+        ref: 6a3f48964585f1bfd7d00166898e437b9c5b082a
+      python-wrapt:
+        rationale: Automatically generated
+        ref: 1538f79020fb4d55d79c804f85ff5460f48930f1
+      pytz:
+        rationale: Automatically generated
+        ref: 67de44e3f3504d7083a85a4520b97bf3fa3c6c46
+      realmd:
+        rationale: Automatically generated
+        ref: 2009ea05e5a1ff1cf363b0fb15f6a68633c9f8ae
+      rsync:
+        rationale: Automatically generated
+        ref: 7e9c3294357b7d3515df48ac4212551029cb3f1a
+      satyr:
+        rationale: Automatically generated
+        ref: 61f601b6dee8046c41d0932bb410e36800f6f381
+      sgpio:
+        rationale: Automatically generated
+        ref: b33bf5ea88fbe710366842cf9375f1906001dc1e
+      snappy:
+        rationale: Automatically generated
+        ref: 4e1d0eafc0fabe79b5ea74e2bf5f42079cb146c2
+      sssd:
+        rationale: Automatically generated
+        ref: 79cc292e27246943a73960a36149efe85df7a85e
+      usermode:
+        rationale: Automatically generated
+        ref: bd4ba70e00b0ef0068ca57e0fafaa869252ae446
+      volume_key:
+        rationale: Automatically generated
+        ref: 8f83183cd99f94009b63216cbafd55fc0a37470d
+      xmlrpc-c:
+        rationale: Automatically generated
+        ref: 46bffbbc772e305aade00c09bd4fffb20151f301
+  dependencies:
+    buildrequires:
+      bootstrap: master
+      installer-bootstrap: master
+    requires:
+      base-runtime: master
+  description: ''
+  filter: {}
+  license:
+    module:
+    - MIT
+  name: installer
+  references:
+    community: https://fedoraproject.org/wiki/BaseRuntime
+    documentation: https://github.com/fedora-modularity/base-runtime
+    tracker: https://github.com/fedora-modularity/base-runtime/issues
+  stream: ''
+  summary: ''
+  version: 0
+document: modulemd
+version: 1
