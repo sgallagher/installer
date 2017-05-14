@@ -183,8 +183,8 @@ data:
   components:
     rpms:
       NetworkManager:
-        rationale: Automatically generated
-        ref: e6eb5ade9b935572977684758c241dd4fe396c45
+        rationale: Latest version to fix build errors
+        ref: 085f84674b9171b5176000ad04d23aea8e24b60d
       anaconda:
         rationale: Automatically generated
         ref: 4345efecdc5b70fbf7ceb884e0364b6356181ded
@@ -363,9 +363,12 @@ data:
       libproxy:
         rationale: Automatically generated
         ref: da793c1f5aced58e40bf86d15903f5d28d1eabb1
+      libpsl:
+        rationale: Needed for updated NetworkManager
+        ref: 76ef0f56ec9d386fc981462fccc4338f987bc4d6
       libreport:
-        rationale: Automatically generated
-        ref: d539e44114955d726ed028bd08535618a7ac3d9f
+        rationale: Fix format-security
+        ref: b730895e1c6c071a493aad90d0b3967ad078e0f3
       libsoup:
         rationale: Automatically generated
         ref: 6d757ca851c6bf0e8ec257ca949ffb6bef14c325
@@ -382,8 +385,8 @@ data:
         rationale: Automatically generated
         ref: 1d447b1d5fea72a82da152b20a54bdad7cfb8a0a
       libuser:
-        rationale: Automatically generated
-        ref: 82af1df176b1e0444cde0733354a51c8562a1ad6
+        rationale: Fix format-security
+        ref: c1e262db9f77d4b34fe983c092307837f9744b48
       lldpad:
         rationale: Automatically generated
         ref: b09c517b525800047d520c56a8ee9dc27cfd9715
@@ -475,8 +478,8 @@ data:
         rationale: Automatically generated
         ref: 0b559a8cea17c5298e68d138789ee9e107164e07
       python-requests:
-        rationale: Automatically generated
-        ref: 92f3747faf42799228cc941d2b9c18a97c95b9d8
+        rationale: Skip test failures
+        ref: 52b543077360f42d4247f26f614edf32d51318ce
       python-requests-file:
         rationale: Automatically generated
         ref: cd3543eceb80870578cb38eb497c6e9de243cf05
@@ -511,8 +514,8 @@ data:
         rationale: Automatically generated
         ref: 4e1d0eafc0fabe79b5ea74e2bf5f42079cb146c2
       sssd:
-        rationale: Automatically generated
-        ref: 79cc292e27246943a73960a36149efe85df7a85e
+        rationale: Latest stable. Fix test failures.
+        ref: 9c949c17eb6a2e2d0bdae295752d7b397ee987a9
       usermode:
         rationale: Update to fix FTBFS
         ref: 124aec2cb3cc9910f5abbb1560d49157488136af
